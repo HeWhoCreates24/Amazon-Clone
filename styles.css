@@ -240,7 +240,7 @@
 .hero{
     height: 40.5vh;
     width: 100%;
-    background-image: url("/tanmayCode/tanmayFrontEnd/Amazon Clone/img/herosec.jpg") ;
+    background-image: url("/img/herosec.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -305,28 +305,28 @@
     color: #ff6201;
 }
 .toy{
-    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/toys.jpg');
+    background-image: url('/img/toys.jpg');
 }
 .decor{
-    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/homedecor.jpg');
+    background-image: url('/img/homedecor.jpg');
 }
 .fashion{
-    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/fashion.jpg');
+    background-image: url('/img/fashion.jpg');
 }
 .friday{
-    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/blackfriday.jpg');
+    background-image: url('/img/blackfriday.jpg');
 }
 .beauty{
-    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/beauty.jpg');
+    background-image: url('/img/beauty.jpg');
 }
 .game{
-    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/gameon.jpg');
+    background-image: url('/img/gameon.jpg');
 }
 .gifts{
-    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/gifts.jpg');
+    background-image: url('/img/gifts.jpg');
 }
 .pc{
-    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/pc.jpg');
+    background-image: url('/img/pc.jpg');
 }
 .footer{
     height: 80vh;
@@ -381,7 +381,7 @@
 .ft_logo .img{
     height: 120px;
     width: 200px;
-    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/whiteLogo.png');
+    background-image: url('/img/whiteLogo.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
