@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/**navbar**/
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #014234;
+    background: linear-gradient(to right,#014234,80%,#04724b);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+    font-size: 0.85rem;
+}
+.logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 0.3%;
+}
+.logo img{
+    height: 2.75rem;
+    margin-top: 6%;
+}
+.location{
+    height: 100%;
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.location-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    font-weight: 700;
+}
+.location-text span{
+    color: #cccccc;
+    font-size: 0.70rem;
+    font-weight: 700;
+}
+.location i{
+    align-self: flex-end;
+    margin-bottom: 20%;
+    margin-right: 7%;
+    font-size: 0.90rem;
+}
+.searchbar{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 18px;
+}
+.select{
+    background-color: #e6e6e6;
+    height: 65%;
+    width: 55px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #cccccc;
+
+}
+.select p{
+    color: #555555;
+    font-size: 0.75rem;
+    display: inline-block;
+}
+.select select{
+    background-color: rgba(0,0,0,0%);
+    color: #555555;
+    display: inline-block;
+}
+.search{
+    background-color: #ffffff;
+    height: 65%;
+    width: 100%;
+}
+.search input{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    padding-left: 5px;
+    font-size: 0.9rem;
+}
+.searchicon{
+    height: 65%;
+    width: 53px;
+    background-color: #a9176f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.searchicon i{
+    font-size: 1.3rem;
+}
+.language{
+    height: 90%;
+    width: 90px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-bottom: 2rem;
+}
+.language img{
+    height: 0.85rem;
+    width: 25%;
+    border-radius: 2px;
+    border: 1px solid #5555558f;
+    margin: 0.1rem;
+}
+.language p{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.language select,.acc select{
+    background-color: rgba(0,0,0,0%);
+    color: #cccccc;
+    display: inline-block;
+    margin-left: -0.3rem;
+}
+.acc{
+    height: 100%;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.order{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.acc span{
+    color: #cccccc;
+    font-size: 0.70rem;
+    font-weight: 550;
+    margin-right: 55px
+}
+.navtext p,.navtext div p{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.acc div{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+.acc div select{
+    margin-left: 1px;
+}
+.order span{
+    color: #cccccc;
+    font-size: 0.70rem;
+    font-weight: 550;
+    margin-right: 13px;
+}
+.cart{
+    height: 100%;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.cart i{
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+.cart p{
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+.logo:hover,.location:hover,.acc:hover,.order:hover,.cart:hover{
+    border: 1px solid white;
+    height: 90%;
+}
+.search:hover,.select:hover,.searchicon:hover{
+    border: 2px solid rgb(225, 154, 0);
+}
+/* panel */
+.panel{
+    height: 40px;
+    width: 100%;
+    background-color: #085749;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+.panel div{
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 12px;
+}
+.all i{
+    margin: 3px;
+    font-size: 1rem;
+}
+.panel div p{
+    margin: 3px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.space{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-grow: 1;
+}
+.border:hover{
+    border: 1px solid white;
+    height: 30%;
+}
+/* herosection */
+.hero{
+    height: 40.5vh;
+    width: 100%;
+    background-image: url("/tanmayCode/tanmayFrontEnd/Amazon Clone/img/herosec.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.msg{
+    height: 40px;
+    width: 96%;
+    background-color: rgba(255,2550,255,90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+.msg a{
+    text-decoration: none;
+    color: #555555;
+    padding-left: 3px;
+}
+.msg a:hover{
+    text-decoration: underline;
+    color: #ff6201;
+}
+.content{
+    height: 140vh;
+    width: 100%;
+    background: linear-gradient(to bottom,#ff6201,40%,#cccccc);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.box{
+    height: 45%;
+    width: 23%;
+    background-color: white;
+    margin: 9.7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+}
+.box h1{
+    padding: 20px 0 10px 16px;
+    font-size: 1.4rem;
+}
+.box div{
+    height: 70%;
+    width: 90%;
+    align-self: center;
+}
+.box p{
+    padding: 18px 0 0 16px;
+    font-size: 0.75rem;
+    font-weight: 100;
+    color: rgb(8, 136, 186);
+}
+.box p:hover{
+    color: #ff6201;
+}
+.toy{
+    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/toys.jpg');
+}
+.decor{
+    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/homedecor.jpg');
+}
+.fashion{
+    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/fashion.jpg');
+}
+.friday{
+    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/blackfriday.jpg');
+}
+.beauty{
+    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/beauty.jpg');
+}
+.game{
+    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/gameon.jpg');
+}
+.gifts{
+    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/gifts.jpg');
+}
+.pc{
+    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/pc.jpg');
+}
+.footer{
+    height: 80vh;
+    width: 100%;
+    background-color: #131a22;
+}
+.top{
+    height: 50px;
+    width: 100%;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top a{
+    text-decoration: none;
+    color: #cccccc;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+.info{
+    height: 56%;
+    width: 100%;
+    background-color: #232f3e;
+    border-bottom: 1px solid rgba(255,255,255,20%);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.info ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 50px 50px 0 50px;
+}
+.info ul li{
+    padding-top: 15px;
+    font-size: 0.85rem;
+}
+.info ul li:hover{
+    text-decoration: underline;
+}
+.ft_logo{
+    width: 100%;
+    height: 15%;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ft_logo .img{
+    height: 120px;
+    width: 200px;
+    background-image: url('/tanmayCode/tanmayFrontEnd/Amazon Clone/img/whiteLogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 20px;
+}
+.end{
+    margin-top: 40px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.links{
+    height: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+}
