@@ -2,7 +2,7 @@
 
 Author : Tanmay Hatkar
 
-An Amazon-like e-commerce website clone
+An Amazon website clone
 
 ---
 
