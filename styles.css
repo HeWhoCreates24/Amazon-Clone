@@ -415,3 +415,151 @@
     color: white;
     font-size: 0.7rem;
 }
+@media (max-width : 300px){
+    body{
+        font-size: 5px;
+    }
+    .logo img{
+        height: 1.8rem;
+        margin-right: -15px;
+    }
+    .location,.language,.acc,.order,.cart{
+        display: none;
+    }
+    .searchbar{
+        width: 60%;
+    }
+    .search input,.searchbar .select p{
+        font-size: 0.6rem;
+    }
+    .searchbar .select p{
+        padding-left: 6px;
+    }
+    .searchicon i{
+        font-size: 0.8rem;
+    }
+    .panel .border{
+        display: none;
+    }
+    .msg{
+        display: none;
+    }
+    .hero{
+        background-position: top;
+        background-size: 160%;
+        height: 15vh;
+    }
+    .content{
+        height: 500vh;
+    }
+    .box{
+        height: 10%;
+        width: 80%;
+    }
+    .info{
+        display: none;
+    }
+    .end div a,.end div{
+        font-size: 0.3rem;
+    }
+}
+@media (min-width : 300px) and (max-width : 600px){
+    body{
+        font-size: 5px;
+    }
+    .logo img{
+        height: 1.8rem;
+        margin-right: -15px;
+    }
+    .language,.acc,.order{
+        display: none;
+    }
+    .searchbar{
+        width: 40%;
+        margin-right: -30px;
+        margin-left: 0;
+    }
+    .search input,.searchbar .select p{
+        font-size: 0.6rem;
+    }
+    .searchbar .select p{
+        padding-left: 6px;
+    }
+    .searchicon i{
+        font-size: 0.8rem;
+    }
+    .panel .border{
+        display: none;
+    }
+    .msg{
+        font-size: 0.4rem;
+    }
+    .hero{
+        background-position: top;
+        background-size: 160%;
+        height: 25vh;
+    }
+    .content{
+        height: 150vh;
+    }
+    .box{
+        height: 22%;
+        width: 40%;
+    }
+    .info{
+        height: 60vh;
+    }
+    .info ul li,.info ul h4{
+        font-size: 0.4rem;
+    }
+    .end div a,.end div{
+        font-size: 0.4rem;
+    }
+}
+@media (min-width : 600px) and (max-width : 1000px){
+    body{
+        font-size: 5px;
+    }
+    .logo img{
+        height: 1.8rem;
+        margin-right: -15px;
+    }
+    .language,.acc{
+        display: none;
+    }
+    .searchbar{
+        width: 40%;
+        margin-right: -30px;
+        margin-left: 0;
+    }
+    .searchbar .select p{
+        padding-left: 6px;
+    }
+    .searchicon i{
+        font-size: 0.8rem;
+    }
+    .msg{
+        font-size: 0.7rem;
+    }
+    .hero{
+        background-position: top;
+        background-size: 160%;
+        height: 25vh;
+    }
+    .content{
+        height: 150vh;
+    }
+    .box{
+        height: 22%;
+        width: 40%;
+    }
+    .info{
+        height: 60vh;
+    }
+    .info ul li,.info ul h4{
+        font-size: 0.9rem;
+    }
+    .end div a,.end div{
+        font-size: 0.9rem;
+    }
+}
